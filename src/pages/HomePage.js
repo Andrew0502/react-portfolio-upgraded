@@ -8,7 +8,7 @@ function HomePage(props) {
         <div>
             <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
             <p>Hello!</p>
-            {/* <Carousel /> */}
+            <Carousel />
         </div>
     );
 
