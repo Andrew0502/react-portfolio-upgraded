@@ -1,9 +1,9 @@
 import React from "react";
-import Hero from "../components/Hero";
-import Content from "../components/Content";
-import Profile from "../assets/images/profile.png";
+import Hero from "../../components/Hero";
+import Content from "../../components/Content";
+import Profile from "../../assets/images/profile.png";
 // import Col from "react-bootstrap/Col";
-import pdf from "../assets/resume.pdf";
+import pdf from "../../assets/resume.pdf";
 
 var imgStyle = {
   borderRadius: 16,
@@ -22,8 +22,6 @@ function AboutPage(props) {
           alt="Myself, at my graduation from Berry College in 2016"
           style={imgStyle}
         />
-        {/* </Col> */}
-        <container>
           <p>
             Hello! I am a technology student who is attending the Georgia Tech
             Coding Bootcamp to broaden my horizons. I live in Ringgold, Georgia.
@@ -37,15 +35,14 @@ function AboutPage(props) {
             Florida. I chose to take this bootcamp to boost my skills and start
             a career.
           </p>
-        </container>
         <div className="row">
           <p>
             My skills include React, Javascript, Node.js, CSS, MySQL, MongoDB,
             Express.js, Customer Service, and some experience with International
             Business. You can connect with me on{" "}
             <a href="www.linkedin.com/in/andrew-marcus1">LinkedIn</a> and view
-            my Resume at{" "}
-            <a href={pdf} target="_blank" rel="noreferrer">Resume</a>
+            my {" "}
+            <a href={pdf} target="_blank" rel="noreferrer">Resume. </a>
             Thank you for visiting!
           </p>
         </div>
